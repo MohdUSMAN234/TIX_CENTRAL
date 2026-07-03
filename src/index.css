@@ -6,13 +6,13 @@
   --font-display: "Space Grotesk", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 
-  --color-swiss-red: #00F0FF; /* Replace red with cyber cyan for Bento theme consistency */
+  --color-swiss-red: #00F0FF; 
   --color-cyber-neon: #00F0FF;
   --color-cyber-gold: #FFB300;
   --color-cyber-blue: #00F0FF;
 }
 
-/* Custom Neo-Industrial / Brutalist & Bento Styling */
+
 @layer utilities {
   .brutalist-border {
     border: 1px solid #2A2A2E;
@@ -45,7 +45,7 @@
   }
 }
 
-/* Fine-tune page backgrounds & default font styles for cyber terminal */
+
 body {
   font-family: var(--font-sans);
   background-color: #0F0F10;
@@ -53,7 +53,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Custom scrollbar for high-fidelity technical log consoles */
+
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
