@@ -49,15 +49,15 @@ export interface EventListing {
 export type SeatStatus = 'available' | 'held' | 'booked';
 
 export interface SeatState {
-  id: string; // showId:row:col
+  id: string; 
   showId: string;
   row: number;
   col: number;
   category: SeatCategory;
   status: SeatStatus;
-  heldBySessionId?: string; // unique identifier for the user's hold session
+  heldBySessionId?: string; 
   heldByUserEmail?: string;
-  heldUntil?: string; // ISO timestamp
+  heldUntil?: string; 
   bookedByEmail?: string;
   bookingId?: string;
 }
@@ -85,9 +85,9 @@ export interface WaitlistEntry {
   customerEmail: string;
   category: SeatCategory;
   createdAt: string;
-  // Offer flow properties:
-  offerSentAt?: string; // ISO timestamp when seat became available and offer was made
-  offerExpiresAt?: string; // ISO timestamp
+ 
+  offerSentAt?: string; 
+  offerExpiresAt?: string; 
   offeredSeat?: { row: number; col: number };
 }
 
@@ -96,7 +96,7 @@ export interface EmailLog {
   to: string;
   subject: string;
   body: string;
-  qrCode?: string; // Optional QR code attachment
+  qrCode?: string; 
   timestamp: string;
 }
 
