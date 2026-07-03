@@ -1,0 +1,8 @@
+{
+  "name": "Ticket Booking System",
+  "description": "An advanced seat booking application featuring real-time seat mapping, concurrency lock mechanisms, hold TTL auto-releases, waitlist queues, and QR-coded ticket notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

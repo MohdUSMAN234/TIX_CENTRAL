@@ -1,0 +1,1107 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Albin Keller",
+      "email": "admin@booking.com",
+      "password": "password123",
+      "role": "admin"
+    },
+    {
+      "id": "u2",
+      "name": "Sophie Dupont",
+      "email": "organiser@booking.com",
+      "password": "password123",
+      "role": "organiser"
+    },
+    {
+      "id": "u3",
+      "name": "Milo Vance",
+      "email": "customer@booking.com",
+      "password": "password123",
+      "role": "customer"
+    },
+    {
+      "id": "u4",
+      "name": "Zara Lin",
+      "email": "zara@booking.com",
+      "password": "password123",
+      "role": "customer"
+    }
+  ],
+  "venues": [
+    {
+      "id": "v1",
+      "name": "Starlight Theater (Acoustic Hall)",
+      "rows": 6,
+      "cols": 8,
+      "layout": [
+        {
+          "row": 1,
+          "col": 1,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 8,
+          "category": "VIP"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "category": "VIP"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "category": "VIP"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "category": "VIP"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "category": "VIP"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "category": "VIP"
+        },
+        {
+          "row": 2,
+          "col": 6,
+          "category": "VIP"
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "category": "VIP"
+        },
+        {
+          "row": 2,
+          "col": 8,
+          "category": "VIP"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 8,
+          "category": "Premium"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "category": "Premium"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "category": "Premium"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "category": "Premium"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "category": "Premium"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "category": "Premium"
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "category": "Premium"
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "category": "Premium"
+        },
+        {
+          "row": 4,
+          "col": 8,
+          "category": "Premium"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 8,
+          "category": "Standard"
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "category": "Standard"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "category": "Standard"
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "category": "Standard"
+        },
+        {
+          "row": 6,
+          "col": 4,
+          "category": "Standard"
+        },
+        {
+          "row": 6,
+          "col": 5,
+          "category": "Standard"
+        },
+        {
+          "row": 6,
+          "col": 6,
+          "category": "Standard"
+        },
+        {
+          "row": 6,
+          "col": 7,
+          "category": "Standard"
+        },
+        {
+          "row": 6,
+          "col": 8,
+          "category": "Standard"
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "name": "Metro Arena (Main Stage)",
+      "rows": 5,
+      "cols": 6,
+      "layout": [
+        {
+          "row": 1,
+          "col": 1,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "category": "VIP"
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "category": "VIP"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "category": "Premium"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "category": "Premium"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "category": "Premium"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "category": "Premium"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "category": "Premium"
+        },
+        {
+          "row": 2,
+          "col": 6,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "category": "Premium"
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "category": "Premium"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "category": "Standard"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "category": "Standard"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "category": "Standard"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "category": "Standard"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "category": "Standard"
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "category": "Standard"
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "category": "Standard"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "title": "Neon Odyssey: Synthwave LIVE",
+      "description": "An immersive retro-futuristic synthesizer concert featuring custom audio-visual installations and deep bass waves.",
+      "date": "2026-07-05",
+      "time": "20:00",
+      "venueId": "v1",
+      "venueName": "Starlight Theater (Acoustic Hall)",
+      "pricing": {
+        "Standard": 45,
+        "Premium": 75,
+        "VIP": 120
+      },
+      "organiserId": "u2"
+    },
+    {
+      "id": "e2",
+      "title": "Cinematheque: Interstellar Retrospective",
+      "description": "Experience Hans Zimmer's epic theatrical masterpiece on the giant screen with live high-fidelity audio remastering.",
+      "date": "2026-07-07",
+      "time": "18:30",
+      "venueId": "v2",
+      "venueName": "Metro Arena (Main Stage)",
+      "pricing": {
+        "Standard": 20,
+        "Premium": 35,
+        "VIP": 55
+      },
+      "organiserId": "u2"
+    }
+  ],
+  "seats": [
+    {
+      "id": "e1:1:1",
+      "showId": "e1",
+      "row": 1,
+      "col": 1,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:1:2",
+      "showId": "e1",
+      "row": 1,
+      "col": 2,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:1:3",
+      "showId": "e1",
+      "row": 1,
+      "col": 3,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:1:4",
+      "showId": "e1",
+      "row": 1,
+      "col": 4,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:1:5",
+      "showId": "e1",
+      "row": 1,
+      "col": 5,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:1:6",
+      "showId": "e1",
+      "row": 1,
+      "col": 6,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:1:7",
+      "showId": "e1",
+      "row": 1,
+      "col": 7,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:1:8",
+      "showId": "e1",
+      "row": 1,
+      "col": 8,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:2:1",
+      "showId": "e1",
+      "row": 2,
+      "col": 1,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:2:2",
+      "showId": "e1",
+      "row": 2,
+      "col": 2,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:2:3",
+      "showId": "e1",
+      "row": 2,
+      "col": 3,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:2:4",
+      "showId": "e1",
+      "row": 2,
+      "col": 4,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:2:5",
+      "showId": "e1",
+      "row": 2,
+      "col": 5,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:2:6",
+      "showId": "e1",
+      "row": 2,
+      "col": 6,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:2:7",
+      "showId": "e1",
+      "row": 2,
+      "col": 7,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:2:8",
+      "showId": "e1",
+      "row": 2,
+      "col": 8,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e1:3:1",
+      "showId": "e1",
+      "row": 3,
+      "col": 1,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:3:2",
+      "showId": "e1",
+      "row": 3,
+      "col": 2,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:3:3",
+      "showId": "e1",
+      "row": 3,
+      "col": 3,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:3:4",
+      "showId": "e1",
+      "row": 3,
+      "col": 4,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:3:5",
+      "showId": "e1",
+      "row": 3,
+      "col": 5,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:3:6",
+      "showId": "e1",
+      "row": 3,
+      "col": 6,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:3:7",
+      "showId": "e1",
+      "row": 3,
+      "col": 7,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:3:8",
+      "showId": "e1",
+      "row": 3,
+      "col": 8,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:4:1",
+      "showId": "e1",
+      "row": 4,
+      "col": 1,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:4:2",
+      "showId": "e1",
+      "row": 4,
+      "col": 2,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:4:3",
+      "showId": "e1",
+      "row": 4,
+      "col": 3,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:4:4",
+      "showId": "e1",
+      "row": 4,
+      "col": 4,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:4:5",
+      "showId": "e1",
+      "row": 4,
+      "col": 5,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:4:6",
+      "showId": "e1",
+      "row": 4,
+      "col": 6,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:4:7",
+      "showId": "e1",
+      "row": 4,
+      "col": 7,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:4:8",
+      "showId": "e1",
+      "row": 4,
+      "col": 8,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e1:5:1",
+      "showId": "e1",
+      "row": 5,
+      "col": 1,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:5:2",
+      "showId": "e1",
+      "row": 5,
+      "col": 2,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:5:3",
+      "showId": "e1",
+      "row": 5,
+      "col": 3,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:5:4",
+      "showId": "e1",
+      "row": 5,
+      "col": 4,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:5:5",
+      "showId": "e1",
+      "row": 5,
+      "col": 5,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:5:6",
+      "showId": "e1",
+      "row": 5,
+      "col": 6,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:5:7",
+      "showId": "e1",
+      "row": 5,
+      "col": 7,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:5:8",
+      "showId": "e1",
+      "row": 5,
+      "col": 8,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:6:1",
+      "showId": "e1",
+      "row": 6,
+      "col": 1,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:6:2",
+      "showId": "e1",
+      "row": 6,
+      "col": 2,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:6:3",
+      "showId": "e1",
+      "row": 6,
+      "col": 3,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:6:4",
+      "showId": "e1",
+      "row": 6,
+      "col": 4,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:6:5",
+      "showId": "e1",
+      "row": 6,
+      "col": 5,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:6:6",
+      "showId": "e1",
+      "row": 6,
+      "col": 6,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:6:7",
+      "showId": "e1",
+      "row": 6,
+      "col": 7,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e1:6:8",
+      "showId": "e1",
+      "row": 6,
+      "col": 8,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:1:1",
+      "showId": "e2",
+      "row": 1,
+      "col": 1,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e2:1:2",
+      "showId": "e2",
+      "row": 1,
+      "col": 2,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e2:1:3",
+      "showId": "e2",
+      "row": 1,
+      "col": 3,
+      "category": "VIP",
+      "status": "booked",
+      "bookedByEmail": "admin@booking.com",
+      "bookingId": "b_seed_wsxbk1"
+    },
+    {
+      "id": "e2:1:4",
+      "showId": "e2",
+      "row": 1,
+      "col": 4,
+      "category": "VIP",
+      "status": "booked",
+      "bookedByEmail": "admin@booking.com",
+      "bookingId": "b_seed_b07j1k"
+    },
+    {
+      "id": "e2:1:5",
+      "showId": "e2",
+      "row": 1,
+      "col": 5,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e2:1:6",
+      "showId": "e2",
+      "row": 1,
+      "col": 6,
+      "category": "VIP",
+      "status": "available"
+    },
+    {
+      "id": "e2:2:1",
+      "showId": "e2",
+      "row": 2,
+      "col": 1,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:2:2",
+      "showId": "e2",
+      "row": 2,
+      "col": 2,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:2:3",
+      "showId": "e2",
+      "row": 2,
+      "col": 3,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:2:4",
+      "showId": "e2",
+      "row": 2,
+      "col": 4,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:2:5",
+      "showId": "e2",
+      "row": 2,
+      "col": 5,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:2:6",
+      "showId": "e2",
+      "row": 2,
+      "col": 6,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:3:1",
+      "showId": "e2",
+      "row": 3,
+      "col": 1,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:3:2",
+      "showId": "e2",
+      "row": 3,
+      "col": 2,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:3:3",
+      "showId": "e2",
+      "row": 3,
+      "col": 3,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:3:4",
+      "showId": "e2",
+      "row": 3,
+      "col": 4,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:3:5",
+      "showId": "e2",
+      "row": 3,
+      "col": 5,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:3:6",
+      "showId": "e2",
+      "row": 3,
+      "col": 6,
+      "category": "Premium",
+      "status": "available"
+    },
+    {
+      "id": "e2:4:1",
+      "showId": "e2",
+      "row": 4,
+      "col": 1,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:4:2",
+      "showId": "e2",
+      "row": 4,
+      "col": 2,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:4:3",
+      "showId": "e2",
+      "row": 4,
+      "col": 3,
+      "category": "Standard",
+      "status": "booked",
+      "bookedByEmail": "customer@booking.com",
+      "bookingId": "b_seed_u7lcgc"
+    },
+    {
+      "id": "e2:4:4",
+      "showId": "e2",
+      "row": 4,
+      "col": 4,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:4:5",
+      "showId": "e2",
+      "row": 4,
+      "col": 5,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:4:6",
+      "showId": "e2",
+      "row": 4,
+      "col": 6,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:5:1",
+      "showId": "e2",
+      "row": 5,
+      "col": 1,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:5:2",
+      "showId": "e2",
+      "row": 5,
+      "col": 2,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:5:3",
+      "showId": "e2",
+      "row": 5,
+      "col": 3,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:5:4",
+      "showId": "e2",
+      "row": 5,
+      "col": 4,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:5:5",
+      "showId": "e2",
+      "row": 5,
+      "col": 5,
+      "category": "Standard",
+      "status": "available"
+    },
+    {
+      "id": "e2:5:6",
+      "showId": "e2",
+      "row": 5,
+      "col": 6,
+      "category": "Standard",
+      "status": "available"
+    }
+  ],
+  "bookings": [],
+  "waitlist": [],
+  "emails": []
+}

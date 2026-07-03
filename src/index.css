@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "JetBrains Mono", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-swiss-red: #00F0FF; /* Replace red with cyber cyan for Bento theme consistency */
+  --color-cyber-neon: #00F0FF;
+  --color-cyber-gold: #FFB300;
+  --color-cyber-blue: #00F0FF;
+}
+
+/* Custom Neo-Industrial / Brutalist & Bento Styling */
+@layer utilities {
+  .brutalist-border {
+    border: 1px solid #2A2A2E;
+  }
+  .brutalist-shadow-sm {
+    box-shadow: 2px 2px 0px 0px #2A2A2E;
+  }
+  .brutalist-shadow {
+    box-shadow: 4px 4px 0px 0px #2A2A2E;
+  }
+  .brutalist-shadow-lg {
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+  }
+  .brutalist-shadow-hover {
+    transition: all 0.15s ease-in-out;
+  }
+  .brutalist-shadow-hover:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 0px 0px 10px rgba(0, 240, 255, 0.15);
+    border-color: #00F0FF;
+  }
+  .led-glow-green {
+    box-shadow: 0 0 8px #00FF66;
+  }
+  .led-glow-amber {
+    box-shadow: 0 0 8px #FFB300;
+  }
+  .led-glow-red {
+    box-shadow: 0 0 8px #FF3366;
+  }
+}
+
+/* Fine-tune page backgrounds & default font styles for cyber terminal */
+body {
+  font-family: var(--font-sans);
+  background-color: #0F0F10;
+  color: #E0E0E0;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar for high-fidelity technical log consoles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111113;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2A2E;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00F0FF;
+}
